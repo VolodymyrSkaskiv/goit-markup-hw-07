@@ -22,17 +22,19 @@
 }
 
 .address-map {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(null, 14px, 1.71, 0.03em);
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
 
   color: var(--white);
 }
 
 .email-tel {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(null, 14px, 1.71, 0.03em);
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
 
   color: var(--white_alpha);
 }
@@ -51,10 +53,11 @@
 }
 
 .title-join {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(700, 14px, 1.14, 0.03em);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
 
@@ -104,9 +107,11 @@
   padding-left: 16px;
   margin-right: 12px;
 
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
+  @include font(null, 16px, 1.25, 0.03em);
+
+  // font-size: 16px;
+  // line-height: 1.25;
+  // letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 
   outline: transparent;

@@ -14,18 +14,19 @@
   padding-right: 39px;
   padding-bottom: 40px;
 
-  &-title {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
+  &__title {
+    @include font(700, 20px, 1.15, 0.03em);
+    // font-weight: 700;
+    // font-size: 20px;
+    // line-height: 1.15;
+    // letter-spacing: 0.03em;
     text-align: center;
-    letter-spacing: 0.03em;
     margin-bottom: 12px;
 
     color: var(--title-color);
   }
 
-  &-close {
+  &__close {
     position: absolute;
     top: 8px;
     right: 8px;

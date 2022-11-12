@@ -13,3 +13,19 @@ body {
 .list {
   list-style: none;
 }
+
+.blok {
+  display: flex;
+  align-items: baseline;
+}
+
+.title-section {
+  @include font(700, 36px, 1.17, null);
+  // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+
+  color: var(--title-color);
+}
